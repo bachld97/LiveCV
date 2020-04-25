@@ -1,0 +1,95 @@
+#+TITLE: LE DUY BACH
+
+- Phone: 0933101165
+- Email: ldbach97@gmail.com
+- Online profiles: [[https://github.com/bachld97/][Github]], [[https://www.linkedin.com/in/bach-le-b03952188/][Linkedin]], [[Https://medium.com/@ldbach97][Medium]], [[https://www.bachld.xyz][Personal site]]
+
+iOS engineer with humble experience. Interested in reading, writing, and tinkering with computer.
+
+This CV is the product of learning to use Org mode in Emacs.
+
+* (APR 2019 - NOW) iOS Engineer @ Zing MP3 - Zalo
+
+** Live Audio Screen
+*** Feature brief
+- User can play live audio content, such as music or radio (in background or foreground)
+- User can open live audio detail view to see ongoing chats and reactions for the audio content
+- There is a miniplayer so that user can collapse the audio detail view and continue to browse other parts of Zing MP3 (such as News Feed)
+- The Radio is compatible for use inside Live Room (see below)
+TODO: Add screencast
+
+*** Roles
+- Handle detail view
+- Design interface to integrate with miniplayer view
+- Reuse chat and reaction modules from previous screens
+
+** Live Room Screen
+*** Feature brief
+- Live Room is a novel feature in Zing MP3. Users can chat and send reactions in this room.
+- The live room integrates seamlessly with other audio experience in Zing MP3. User can see what audio is playing while in this room.
+- A list of songs can be shown on demand to select other songs.
+TODO: Add screencast
+
+*** Roles
+- Handle Live Room UI
+- Design interface to integrate with audio experience handler
+- Reuse comment and reaction modules from previous screens
+
+
+** Livestream Screen
+*** Feature brief
+- User can view livestream in Zing MP3. If the livestream is portrait, users always view it in fullscreen. If the livestream is landscape, users can either view it in fullscreen or minimized
+- While watching livestream, users can chat and send reaction
+- Users can see reaction combo if the reaction button is pressed in quick succession. If the combo exceed certain threshold, it is celebrated locally and a banner is also shown for other users
+- In in recent versions of Zing MP3, users can scroll back to see past chats (This was not possible in early releases of the chat module)
+
+*** Roles
+- Handle livestream UI and logic
+- Design and implement chat and reaction modules
+
+
+* (APR 2018, 1 YEAR) Mobile Intern @ Zalo
+
+*** Prototypes for upcoming projects
+
+- Video capturing and editting application (ANDROID). User can capture segments of video clip, add effects to it, and create a final video with original or with sound from an audio file (music, etc.).
+
+- Video upstream application (IOS). User can capture and broadcast video content to a livestream server. This application uses RTMP protocol. The protocol code is taken from open source library.
+
+*** Firebase Messaging Applications
+
+- Create simple Firebase messaging applications (IOS and ANDROID).
+
+* Personal projects and Interests
+
+** Coding
+*** Popup Selector View Library, [[https://github.com/bachld97/PopupPickerView][view project]]
+- Similar to Facebook reaction
+- Easy to use and extend
+
+*** JSON API Kit, [[https://github.com/bachld97/ApiJsonKit][view project]]
+- Swift library to improve Decodable protocol
+
+*** Personal blog @ https://www.bachld.xyz
+- Created using React Native
+- Hosted with Netlify
+
+** Writing
+
+Generally upload contents to 2 pages. Same content on each page may differ.
+Sometimes write technical blog, sometimes write about my outlook on various matters.
+
+ - [[Https://medium.com/@ldbach97][Medium posts]]
+ - [[https://www.bachld.xyz][Personal site]]
+
+** Other interests
+- A bit of server side code here and there (using Django)
+- Add OpenKey support for other keyboard layout like Dvorak, Coleman (MacOS)
+- Tinkering with computer (Linux i3WM, Vim, Hackintosh, Emacs, etc.)
+- Running
+- Reading. Currently reading [[https://www.goodreads.com/book/show/6713575-coders-at-work][Coders at Work by Peter Seibel]].
+
+* Education
+
+- VNU Ho Chi Minh University of Science (APCS, class of 2015)
+- GPA: 8.73 / 10 (GPA4: 3.80)
